@@ -7,8 +7,7 @@ window.onload = function() {
 
         loadingScreen.style.display = 'none';  // Ensure the loading screen is hidden
         mainContent.classList.remove('hidden');  // Show the main content
-        loadingMusic.play();
-        loadingMusic.pause();  // Stop the music when the loading screen disappears
+        loadingMusic.play();  // Stop the music when the loading screen disappears
     }, 7000);
 
     // Play music, swing image, and show text when play button is clicked
